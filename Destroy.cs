@@ -1,5 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Destroy : MonoBehaviour
@@ -8,9 +6,8 @@ public class Destroy : MonoBehaviour
     [Min(0.1f)]
     float time = 10f;
 
-    private void Update()
+    private void Start()
     {
         Destroy(gameObject, time);
     }
-
 }
