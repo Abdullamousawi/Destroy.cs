@@ -1,5 +1,5 @@
 using UnityEngine;
-
+// https://www.mousawi.dev/codes by @AbdullaMousawi
 public class Destroy : MonoBehaviour
 {
     [SerializeField]
